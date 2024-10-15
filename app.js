@@ -11,11 +11,11 @@ const {
 const databaseUrl = mongoURL;
 //const databaseUrl = "mongodb+srv://ElmeroBueno:MN12Lk45@jimenezriardo.0ntna.mongodb.net/tareas";
 
-mongoose.connect(databaseUrl, { 
-  useNewUrlParser: true,
+mongoose.connect(databaseUrl,{
+  useNewUrlParser: true
 })
-mongoose.connection.on('open', function(){
-  console.log("connection Ok")
+mongoose.connection.on('open',function(){
+  console.log("Connection OK");
 })
 
 var indexRouter = require('./routes/index');
