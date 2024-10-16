@@ -6,7 +6,7 @@ var logger = require('morgan');
 const mongoose = require('mongoose');
 const {
   mongoURL
-} = require('./config').variablesdeconfiguracion;
+} = require('./config').variablesDeConfiguracion;
 
 const databaseUrl = mongoURL;
 //const databaseUrl = "mongodb+srv://ElmeroBueno:MN12Lk45@jimenezriardo.0ntna.mongodb.net/tareas";
